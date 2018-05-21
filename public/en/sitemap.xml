@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://vufuzi.com/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://vufuzi.se/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vufuzi.com/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://vufuzi.com/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://vufuzi.se/kontakt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vufuzi.com/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://vufuzi.com/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://vufuzi.se/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vufuzi.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://vufuzi.com/pages/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://vufuzi.se/pages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vufuzi.com/pages/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://vufuzi.com/pricing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://vufuzi.se/priser/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vufuzi.com/pricing/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://vufuzi.com/services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://vufuzi.se/tj%C3%A4nster/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vufuzi.com/services/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://vufuzi.com/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://vufuzi.se/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vufuzi.com/tags/"
+                />
+  </url>
+  
+</urlset>

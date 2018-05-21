@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+	"@context" : "http://schema.org",
+	"@type" : "Organization",
+	"name" : "{{ .Site.Params.organization.name }}",
+	"url" : "{{ .Site.BaseURL }}",
+	"logo": "{{ .Site.BaseURL }}{{ .Site.Params.organization.logo }}",
+	"address": {
+	  "addressCountry": "{{ .Site.Params.organization.address.addressCountry }}",
+	  "addressLocality": "{{ .Site.Params.organization.address.addressLocality }}",
+	  "addressRegion": "{{ .Site.Params.organization.address.addressRegion }}",
+	  "postalCode": "{{ .Site.Params.organization.address.postalCode }}",
+	  "streetAddress": "{{ .Site.Params.organization.address.streetAddress }}"
+	},
+	"sameAs" : [
+	    "http://vufuzi.com",
+	    "https://facebook.com/vufuzi",
+	    "https://twitter.com/vufuzi",
+	    "https://plus.google.com/+VufuziSe"
+	]
+}
+</script>

@@ -1,0 +1,22 @@
+{
+  "baseURL": "https://vufuzi.com/",
+  "languageCode": "en",
+  "title": "Vufuzi",
+  "theme": "vufuzi",
+  "defaultContentLanguage": "en",
+  "permalinks": {
+    "pages": "/:slug"
+  },
+  "languages": {
+    "en": {
+      "baseURL": "https://vufuzi.com/",
+      "languageName": "English",
+      "weight": 1
+    },
+    "sv": {
+      "baseURL": "https://vufuzi.se/",
+      "languageName": "Svenska",
+      "weight": 2
+    }
+  }
+}
