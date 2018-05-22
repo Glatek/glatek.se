@@ -5,6 +5,7 @@
   "theme": "vufuzi",
   "defaultContentLanguage": "en",
   "googleAnalytics": "UA-37815578-3",
+  "enableGitInfo": true,
   "permalinks": {
     "pages": "/:slug"
   },
