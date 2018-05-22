@@ -8,7 +8,7 @@ description = ""
 homepage = "http://vufuzi.se/"
 tags = ["", ""]
 features = ["", ""]
-min_version = "0.30.2"
+min_version = "0.40.3"
 
 [author]
   name = "Jeremy Karlsson"
