@@ -1,5 +1,5 @@
 ---
-title: "Hem"
+title: "Vufuzi"
 ---
 
 Vi är en kreativ produktionsbyrå från västra Värmland som erbjuder tjänster inom webbutveckling. Vi skapar och underhåller Din webbplats, hemsida, blogg, applikation och e-handels-lösning.

@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Params.locale }}">
-
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
 <head>
   <meta charset="utf-8">
-  <base href="{{ .Site.BaseURL }}"></base>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta name="HandheldFriendly" content="True">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Vufuzi">
-  <meta name="theme-color" content="#0288D1">
+
+  <meta name="theme-color" content="{{ .Site.Data.theme.color }}">
+  <meta name="msapplication-navbutton-color" content="{{ .Site.Data.theme.color }}">
 
   <title>
-    {{ if in .Title "Vufuzi"}} Vufuzi {{ else }} {{ .Title }} — Vufuzi {{ end }}
+    {{ if eq .Title .Site.Title}} {{ .Title }} {{ else }} {{ .Title }} — {{ .Site.Title }} {{ end }}
   </title>
-  <meta name="application-name" content="Vufuzi">
-  <meta name="apple-mobile-web-app-title" content="Vufuzi">
 
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,100%7CRoboto+Slab:400,300,100%7CRoboto+Mono:400,300,100"
-    media="not all" onload="if (media != 'all')media='all'">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons" media="not all" onload="if (media != 'all') media = 'all'">
+  <meta name="application-name" content="{{ .Site.Title }}">
+  <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
+  <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,100%7CRoboto+Slab:400,300,100%7CRoboto+Mono:400,300,100" media="not all" onload="if (media != 'all')media='all'">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="not all" onload="if (media != 'all') media = 'all'">
   <link rel="stylesheet" href="css/style.css">
 
   <!--<link rel="manifest" href="manifest.json">-->
@@ -29,14 +31,22 @@
   <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
   <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
   <meta name="msapplication-tap-highlight" content="no">
-  <meta name="msapplication-navbutton-color" content="#0288D1">
 
-  <meta name="description" content="Modern webbutveckling och webbdesign från natursköna Värmland.">
-  <meta property="fb:admins" content="1367613914"> {{ partial "open-graph.html" . }} {{ partial "twitter-card.html" . }}
+  <meta name="description" content="{{ i18n "companyDescription" }}">
+  <meta property="fb:admins" content="{{ .Site.Data.social.fbAdmins }}">
 
-  <meta name="author" content="Jeremy Karlsson"> {{ if eq .Site.Params.locale "en-US" }}
-  <link rel="alternate" hreflang="sv" href="http://vufuzi.se"> {{ end }} {{ if eq .Site.Params.locale "sv-SE" }}
-  <link rel="alternate" hreflang="en" href="http://vufuzi.com"> {{ end }} {{ .Hugo.Generator }}
+  {{ partial "open-graph.html" . }}
+  {{ partial "twitter-card.html" . }}
+
+  {{ if eq $.Site.LanguageCode "en" }}
+  <link rel="alternate" hreflang="sv" href="http://vufuzi.se">
+  {{ end }}
+
+  {{ if eq $.Site.LanguageCode "sv" }}
+  <link rel="alternate" hreflang="en" href="http://vufuzi.com">
+  {{ end }}
+
+  {{ .Hugo.Generator }}
 </head>
 <body>
 {{ block "header" . }}

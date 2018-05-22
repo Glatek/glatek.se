@@ -1,6 +1,7 @@
 ---
-title: "Home"
+title: "Vufuzi"
 ---
+
 
 We´re a creative company from western Värmland wich offers services in web development. We create, host and maintain your website, blog, app and e-commerce site.
 

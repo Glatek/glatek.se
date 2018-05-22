@@ -2,15 +2,15 @@
 {
 	"@context" : "http://schema.org",
 	"@type" : "Organization",
-	"name" : "{{ .Site.Params.organization.name }}",
+	"name" : "{{ .Site.Title }}",
 	"url" : "{{ .Site.BaseURL }}",
-	"logo": "{{ .Site.BaseURL }}{{ .Site.Params.organization.logo }}",
+	"logo": "{{ .Site.Data.organization.logo }}",
 	"address": {
-	  "addressCountry": "{{ .Site.Params.organization.address.addressCountry }}",
-	  "addressLocality": "{{ .Site.Params.organization.address.addressLocality }}",
-	  "addressRegion": "{{ .Site.Params.organization.address.addressRegion }}",
-	  "postalCode": "{{ .Site.Params.organization.address.postalCode }}",
-	  "streetAddress": "{{ .Site.Params.organization.address.streetAddress }}"
+	  "addressCountry": "{{ .Site.Data.organization.address.addressCountry }}",
+	  "addressLocality": "{{ .Site.Data.organization.address.addressLocality }}",
+	  "addressRegion": "{{ .Site.Data.organization.address.addressRegion }}",
+	  "postalCode": "{{ .Site.Data.organization.address.postalCode }}",
+	  "streetAddress": "{{ .Site.Data.organization.address.streetAddress }}"
 	},
 	"sameAs" : [
 	    "http://vufuzi.com",
