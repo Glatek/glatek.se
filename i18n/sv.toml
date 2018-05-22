@@ -6,3 +6,15 @@ other = "Godkänd för F-skatt hos Skatteverket."
 
 [contact]
 other = "Kontakt"
+
+[socialMedia]
+other = "Sociala medier"
+
+[facebook]
+other = "Vufuzi på Facebook"
+
+[twitter]
+other = "Vufuzi på Twitter"
+
+[googlePlus]
+other = "Vufuzi på Google Plus"

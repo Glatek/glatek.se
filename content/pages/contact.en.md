@@ -1,11 +1,9 @@
 ---
 title: "Contact"
 menu: "right"
+social: true
 ---
 
-The most efficient way to contact us if thorugh e-mail at info@vufuzi.se.
+The most efficient way to contact us if thorugh e-mail at [info@vufuzi.se](mailto:info@vufuzi.se).
 
-I you wanna call us, dial to +46 72-503 91 48
-
-Social Media
-Vufuzi on Facebook, Vufuzi on Twitter, Vufuzi on Google Plus
+I you wanna call us, dial to [+46 72-503 91 48](tel:0046725039148).

@@ -1,6 +1,7 @@
 ---
 title: "Tjänster"
 menu: "left"
+slug: "tjanster"
 ---
 
 ## Webbutveckling

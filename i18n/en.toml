@@ -6,3 +6,15 @@ other = "Approved for F-tax by the Swedish Tax Agency."
 
 [contact]
 other = "Contact"
+
+[socialMedia]
+other = "Social media"
+
+[facebook]
+other = "Vufuzi on Facebook"
+
+[twitter]
+other = "Vufuzi on Twitter"
+
+[googlePlus]
+other = "Vufuzi on Google Plus"

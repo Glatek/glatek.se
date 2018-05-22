@@ -4,5 +4,9 @@
 			<h1>{{ .Title }}</h1>
 		</header>
 		{{ .Content }}
+
+		{{ if isset .Params "social" }}
+			{{ partial "social-media.html" }}
+		{{ end }}
 	</article>
 {{ end }}
