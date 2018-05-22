@@ -21,16 +21,9 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,100%7CRoboto+Slab:400,300,100%7CRoboto+Mono:400,300,100" media="not all" onload="if (media != 'all')media='all'">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="not all" onload="if (media != 'all') media = 'all'">
-  <link rel="stylesheet" href="css/style.css">
-
-  <!--<link rel="manifest" href="manifest.json">-->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
 
   {{ partial "favicons.html" . }}
-
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
-  <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
-  <meta name="msapplication-tap-highlight" content="no">
 
   <meta name="description" content="{{ i18n "companyDescription" }}">
   <meta property="fb:admins" content="{{ .Site.Data.social.fbAdmins }}">
@@ -50,12 +43,14 @@
 </head>
 <body>
 {{ block "header" . }}
-   {{ partial "header.html" . }}
+  {{ partial "header.html" . }}
 {{ end }}
 <main role="main">
-   {{ block "main" . }}{{ end }}
+  {{ block "main" . }}{{ end }}
 </main>
-{{ block "footer" . }} {{ partial "footer.html" . }} {{ end }}
+{{ block "footer" . }}
+  {{ partial "footer.html" . }}
+{{ end }}
 <script src="{{ .Site.BaseURL }}/js/main.js" async defer></script>
 <script>
   (function (i, s, o, g, r, a, m) {

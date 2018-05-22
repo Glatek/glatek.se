@@ -4,7 +4,7 @@
 	"@type" : "Organization",
 	"name" : "{{ .Site.Title }}",
 	"url" : "{{ .Site.BaseURL }}",
-	"logo": "{{ .Site.Data.organization.logo }}",
+	"logo": "{{ .Site.BaseURL }}{{ .Site.Data.theme.logo }}",
 	"address": {
 	  "addressCountry": "{{ .Site.Data.organization.address.addressCountry }}",
 	  "addressLocality": "{{ .Site.Data.organization.address.addressLocality }}",

@@ -32,20 +32,6 @@
   </url>
   
   <url>
-    <loc>https://vufuzi.com/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="https://vufuzi.se/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://vufuzi.com/"
-                />
-  </url>
-  
-  <url>
     <loc>https://vufuzi.com/pages/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -100,6 +86,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://vufuzi.com/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://vufuzi.com/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://vufuzi.se/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vufuzi.com/"
                 />
   </url>
   
