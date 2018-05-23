@@ -1,0 +1,3 @@
+[submodule "themes/vufuzi"]
+	path = themes/vufuzi
+	url = https://github.com/Vufuzi/hugo-vufuzi-theme.git
