@@ -3,7 +3,7 @@ build:
 	./docker/docker-gulp.sh
 
 netlify:
-	hugo && gulp docker/gulp/gulpfile.js
+	hugo && gulp --gulpfile docker/gulp/gulpfile.js --cwd $(PWD)
 
 update-theme:
 	git submodule update --remote --merge
