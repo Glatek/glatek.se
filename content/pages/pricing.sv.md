@@ -5,12 +5,8 @@ menu: "right"
 
 ## Webb- och applikationsutveckling
 
-För webbutveckling tar vi 400 kr exklusive moms per timme. Det går också att anordna fast kostnad från 5 000 kr.
+För webbutveckling tar vi 700 kr exklusive moms per timme. Det går också att anordna fast kostnad från 5 000 kr.
 
-## Webbhotell
+## Webbhotell & underhåll
 
-För webbhotellet tar vi 100 kr / mån exklusive moms.
-
-## Underhåll
-
-Att hålla en hemsida uppdaterar och modern enligt senaste standarn är viktigt. Vi erbjuder underhåll av webbplats för 300 kr / mån exklusive moms.
+Att hålla en hemsida uppdaterad och modern enligt senaste standarn är viktigt. Vi erbjuder underhåll av webbplats för 400 kr / mån exklusive moms. Då ser vi kontinuerligt över er webbplats och uppdaterar koden vid behov, samtidigt som vi agerar webbhotell åt er och ser till att sidan laddar snabbt och på ett säkert vis för användare.

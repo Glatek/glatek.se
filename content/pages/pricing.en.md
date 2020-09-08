@@ -5,7 +5,7 @@ menu: "right"
 
 ## Web and App Development
 
-We´re flexible in our pricing. For web development we charge 400 SEK (exclusive VAT) per hour. Fixed prices can be arranged as well, starting from 5 000 SEK.
+We´re flexible in our pricing. For web development we charge 700 SEK (exclusive VAT) per hour. Fixed prices can be arranged as well, starting from 5 000 SEK.
 
 ## Website Hosting
 
