@@ -10,4 +10,4 @@ Genom att sökmotoroptimera din hemsida så ökar vi dina chanser att hamna hög
 
 När vi skapar din webbplats gör vi det givetvis med responsiv och adaptiv design så att din hemsida går att komma åt och använda på både på datorer, surfplattor och mobiltelefoner. Bärbara enheter har ofta tröga nätverkshastigheter eller databegränsningar, detta tacklar vi genom att skapa webbplatser som laddar fort - och genom att skapa progressiva webbapplikationer.
 
-Letar du efter en hemsida som sätter dig, ditt företag eller din organisation i framkant nu och i framtiden? Behöver ni en ny design till er nuvarande hemsida? En ny blogg? Tveka då inte att kontakta oss!
+Letar du efter en hemsida som sätter dig, ditt företag eller din organisation i framkant nu och i framtiden? Behöver ni en ny design till er nuvarande hemsida? En ny blogg? Tveka inte att kontakta oss!
