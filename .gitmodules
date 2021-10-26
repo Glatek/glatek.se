@@ -1,3 +1,3 @@
-[submodule "themes/vufuzi"]
-	path = themes/vufuzi
+[submodule "themes/glaskogen"]
+	path = themes/glaskogen
 	url = https://github.com/glaskogen/hugo-theme.git
