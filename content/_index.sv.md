@@ -1,5 +1,5 @@
 ---
-title: "Vufuzi"
+title: "Glaskogen IT"
 ---
 
 Vi är en kreativ produktionsbyrå från Glaskogen i västra Värmland som erbjuder tjänster inom webbutveckling. Vi skapar och underhåller din webbplats, hemsida, blogg och progressiva webbapplikation (PWA).
