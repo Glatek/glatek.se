@@ -1,9 +1,9 @@
 {
-  "baseURL": "https://vufuzi.com/",
-  "languageCode": "en",
-  "title": "Vufuzi",
-  "theme": "vufuzi",
-  "defaultContentLanguage": "en",
+  "baseURL": "https://sv.glaskogen.tech/",
+  "languageCode": "sv",
+  "title": "Glaskogen IT",
+  "theme": "glaskogen",
+  "defaultContentLanguage": "sv",
   "googleAnalytics": "UA-37815578-3",
   "enableGitInfo": true,
   "permalinks": {
@@ -11,12 +11,12 @@
   },
   "languages": {
     "en": {
-      "baseURL": "https://vufuzi.com/",
+      "baseURL": "https://en.glaskogen.tech",
       "languageName": "English",
       "weight": 1
     },
     "sv": {
-      "baseURL": "https://vufuzi.se/",
+      "baseURL": "https://sv.glaskogen.tech",
       "languageName": "Svenska",
       "weight": 2
     }
