@@ -1,19 +1,16 @@
 FROM cibuilds/hugo AS hugo
 USER www-data
-WORKDIR /src
-ENV HUGO_ENV=production
-
-ADD . .
+COPY --chown=www-data:www-data . /site
+WORKDIR /site
 RUN hugo
 
 FROM node:17-alpine AS gulp
-RUN mkdir -p /app
 WORKDIR /app
 
 ADD package.json package.json
 RUN npm install
 
-COPY --from=hugo /src/public ./public
+COPY --from=hugo /site/public ./public
 
 ADD ./docker/gulp/gulpfile.js ./gulpfile.js
 RUN npx gulp
