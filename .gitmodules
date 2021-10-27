@@ -1,3 +1,6 @@
 [submodule "themes/glaskogen"]
 	path = themes/glaskogen
 	url = https://github.com/glaskogen/hugo-theme.git
+[submodule "themes/glatek"]
+	path = themes/glatek
+	url = https://github.com/Glatek/hugo-theme.git
