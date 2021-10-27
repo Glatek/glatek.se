@@ -3,7 +3,7 @@ USER www-data
 WORKDIR /src
 ENV HUGO_ENV=production
 
-COPY . .
+ADD . .
 RUN hugo
 
 FROM node:17-alpine AS gulp
