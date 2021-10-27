@@ -3,7 +3,7 @@ FROM cibuilds/hugo AS hugo
 WORKDIR /src
 ENV HUGO_ENV=production
 
-ADD . .
+COPY . .
 RUN hugo
 
 FROM node:17-alpine AS gulp
