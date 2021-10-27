@@ -1,5 +1,5 @@
 FROM cibuilds/hugo AS hugo
-
+RUN mkdir -p /src
 WORKDIR /src
 ENV HUGO_ENV=production
 
@@ -7,6 +7,7 @@ COPY . .
 RUN hugo
 
 FROM node:17-alpine AS gulp
+RUN mkdir -p /app
 WORKDIR /app
 
 ADD package.json package.json
