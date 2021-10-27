@@ -1,7 +1,7 @@
 {
-  "baseURL": "https://sv.glaskogen.tech/",
+  "baseURL": "https://glatek.se",
   "languageCode": "sv",
-  "title": "Glaskogen IT",
+  "title": "Glatek",
   "theme": "glaskogen",
   "defaultContentLanguage": "sv",
   "googleAnalytics": "UA-37815578-3",
@@ -11,12 +11,12 @@
   },
   "languages": {
     "en": {
-      "baseURL": "https://en.glaskogen.tech",
+      "baseURL": "https://en.glatek.se",
       "languageName": "English",
       "weight": 1
     },
     "sv": {
-      "baseURL": "https://sv.glaskogen.tech",
+      "baseURL": "https://glatek.se",
       "languageName": "Svenska",
       "weight": 2
     }
