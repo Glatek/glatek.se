@@ -1,5 +1,5 @@
 FROM cibuilds/hugo AS hugo
-RUN mkdir -p /src
+RUN less /etc/passwd
 WORKDIR /src
 ENV HUGO_ENV=production
 
