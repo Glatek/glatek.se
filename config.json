@@ -5,7 +5,7 @@
   "theme": "glatek",
   "defaultContentLanguage": "sv",
   "googleAnalytics": "UA-37815578-3",
-  "enableGitInfo": true,
+  "enableGitInfo": false,
   "permalinks": {
     "pages": "/:slug"
   },
