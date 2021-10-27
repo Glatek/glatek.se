@@ -2,7 +2,7 @@
   "baseURL": "https://glatek.se",
   "languageCode": "sv",
   "title": "Glatek",
-  "theme": "glaskogen",
+  "theme": "glatek",
   "defaultContentLanguage": "sv",
   "googleAnalytics": "UA-37815578-3",
   "enableGitInfo": true,
