@@ -1,17 +1,21 @@
 FROM cibuilds/hugo AS hugo
+
 WORKDIR /src
-ADD . .
 ENV HUGO_ENV=production
-CMD ["hugo"]
+
+ADD . .
+RUN hugo
 
 FROM node:17-alpine AS gulp
 WORKDIR /app
+
 ADD package.json package.json
 RUN npm install
-ADD ./docker/gulp/gulpfile.js ./gulpfile.js
+
 COPY --from=hugo /src/public ./public
+
+ADD ./docker/gulp/gulpfile.js ./gulpfile.js
 RUN npx gulp
-RUN ls -la ./public
 
 FROM denoland/deno:distroless-1.15.3
 
