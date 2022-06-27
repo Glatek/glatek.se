@@ -1,6 +1,7 @@
 FROM cibuilds/hugo AS hugo
 USER www-data
 COPY --chown=www-data:www-data . /site
+ENV HUGO_ENV=production
 WORKDIR /site
 RUN hugo
 
