@@ -16,13 +16,13 @@ COPY --from=hugo /site/public ./public
 ADD ./docker/gulp/gulpfile.js ./gulpfile.js
 RUN npx gulp
 
-FROM denoland/deno:distroless-1.15.3
+FROM denoland/deno:distroless-1.23.1
 
 WORKDIR /public
 EXPOSE 4507
 
 COPY --from=gulp /app/public/sv .
 
-RUN ["deno", "cache", "https://deno.land/std@0.106.0/http/file_server.ts"]
+RUN ["deno", "cache", "https://deno.land/std@0.145.0/http/file_server.ts"]
 
-CMD ["run", "--allow-net", "--allow-read", "https://deno.land/std@0.106.0/http/file_server.ts"]
+CMD ["run", "--allow-net", "--allow-read", "https://deno.land/std@0.145.0/http/file_server.ts"]
